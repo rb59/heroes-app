@@ -1,16 +1,18 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { AppRouter } from './routers/AppRouter';
+// import PropTypes from 'prop-types';
 
 const HeroesApp = () => {
     return (
-        <div>
-            <h1>HeroesApp</h1>
-        </div>
+        // <div>
+        //     <h1>HeroesApp</h1>
+        // </div>
+        <AppRouter />
     );
 };
 
-HeroesApp.propTypes = {
+// HeroesApp.propTypes = {
 
-};
+// };
 
 export default HeroesApp;
