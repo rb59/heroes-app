@@ -16,6 +16,7 @@ export const SearchScreen = ({history}) => {
     const heroesFiltered = useMemo(() => getHeroesByName(q), [q]) ;
     const handleSearch = (e) => {
         e.preventDefault();
+        console.log('sirvo');
         history.push(`?q=${search}`);
     };
 
